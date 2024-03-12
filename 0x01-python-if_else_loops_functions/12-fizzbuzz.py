@@ -12,6 +12,3 @@ def fizzbuzz():
         
         if i < 100:
             print(" ", end="")
-
-fizzbuzz()
-print()
