@@ -4,4 +4,3 @@ if __name == "__main__":
     def main():
         sum = add(1, 2)
         print(f"1 + 2 = {sum}")
-
