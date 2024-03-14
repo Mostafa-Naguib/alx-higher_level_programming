@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
+
 def main():
     list = sys.argv
     num = len(list) - 1
