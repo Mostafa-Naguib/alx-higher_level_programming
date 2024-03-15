@@ -7,7 +7,7 @@ def main():
     if num == 0:
         print("0 arguments.")
     else:
-        print("{:d} arguments:".format(num))
+        print("{:d} argument:".format(num))
 
     for i in range(1, num+1):
         print("{:d}: {}".format(i, list[i]))
