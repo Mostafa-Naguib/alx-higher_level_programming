@@ -8,12 +8,12 @@ def main():
         print("0 arguments.")
     elif num == 1:
         print("1 argument: ")
-        print("{:d}: {}".format(1, list[1]))
+        print("{}: {}".format(1, list[1]))
     else:
-        print("{:d} arguments:".format(num))
+        print("{} arguments:".format(num))
 
         for i in range(1, num+1):
-            print("{:d}: {}".format(i, list[i]))
+            print("{}: {}".format(i, list[i]))
 
 if __name__ == "__main__":
     main()
