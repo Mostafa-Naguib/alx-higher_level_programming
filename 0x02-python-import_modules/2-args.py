@@ -6,8 +6,11 @@ def main():
     num = len(list) - 1
     if num == 0:
         print("0 arguments.")
+    elif num == 1:
+        print("1 argument: ")
+        print("{:d}: {}".format(i, list[i]))
     else:
-        print("{:d} argument:".format(num))
+        print("{:d} arguments:".format(num))
 
     for i in range(1, num+1):
         print("{:d}: {}".format(i, list[i]))
