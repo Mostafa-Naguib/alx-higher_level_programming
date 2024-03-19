@@ -5,4 +5,4 @@ def element_at(my_list, idx):
     elif len(my_list) < idx:
         return None
 
-    print("{}".format(my_list[idx]))
+    return my_list[idx]
