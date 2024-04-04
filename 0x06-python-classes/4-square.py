@@ -3,7 +3,7 @@
 
 class Square:
     """Defines a square with its attribute, method, getter and setter"""
-    def __init__(self, size):
+    def __init__(self, size=0):
         self.__size = size
 
     @property

@@ -1,6 +1,15 @@
 #!/usr/bin/python3
+"""Square module"""
+
 class Square:
+    """Defines a square with its attribute, method, getter and setter"""
     def __init__(self, size):
+        """Constructor.
+
+            Args:
+                size: length of a side of the square.
+
+        """
         self.__size = size
 
     @property
