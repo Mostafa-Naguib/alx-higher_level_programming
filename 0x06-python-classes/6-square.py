@@ -4,11 +4,12 @@
 
 class Square:
     """Defines a square with its attribute, method, getter and setter"""
-    def __init__(self, size, position):
+    def __init__(self, size=0, position=(0, 0)):
         """Constructor.
 
             Args:
                 size: length of a side of the square.
+                position: length of a side of the square.
 
         """
         self.size = size
