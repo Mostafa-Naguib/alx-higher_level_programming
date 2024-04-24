@@ -5,7 +5,7 @@ if __name__ == "__main__":
     if (sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>\n")
         exit(1)
-    if sys.argv[2] != ["+", "-", "*", "/"]:
+    if sys.argv[2] not in ["+", "-", "*", "/"]:
         print("Unknown operator. Available operators: +, -, * and /\n")
         exit(1)
     else:
