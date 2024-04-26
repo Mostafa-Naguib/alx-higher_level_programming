@@ -6,4 +6,4 @@ def max_integer(my_list=[]):
     copy = my_list.copy()
     copy.sort(reverse=True)
 
-    return copy[1]
+    return copy[0]
